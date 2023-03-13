@@ -1,0 +1,260 @@
+
+.container-fluid
+{
+    font-family: 'Press Start 2P', cursive;
+
+}
+/* Seccion Hero */
+.hero {
+    background-color: black;
+    min-height: 450px;
+    min-width: 200px;
+    text-align: center;
+}
+
+/* Estilos generales */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 375;
+
+}
+h1 {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 3rem;
+    color: lawngreen;
+}
+
+h2 {
+    font-family: 'DotGothic16', sans-serif;
+    color: lawngreen;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: 'DotGothic16', sans-serif;
+    color: lawngreen;
+    font-size: 3rem;
+}
+/* Foto perfil */
+#foto-Bryan
+{
+    width: 30%;
+    border-radius: 40%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+
+.seccion-parrafos{
+    color: rgb(238, 243, 238);
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 2rem;
+    
+}
+#accordionExample{
+    background-color:black;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 2rem;
+
+}
+.accordion-item{
+    background-color: black;
+    color: aliceblue;
+}
+.accordion-button{
+    background-color: rgb(0, 0, 0);
+    color: lawngreen;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.accordion-button h2{
+    
+    text-align: center;
+}
+/* Experiencia */
+
+.experiencia{
+    padding: 25px;
+}
+
+.experiencia .row div{
+    height: 23rem;
+    background-color: rgb(0, 0, 0);
+    border: lawngreen;
+    border-width: 5px;
+    border-style:dashed;
+}
+
+.seccion-clara{
+    background-color: rgb(0, 0, 0);  
+    padding: 3%;  
+}
+
+.columna{
+    background-color: black ;
+    
+}
+ 
+.experiencia .columna{
+    transition: all 0.2s ease-in;
+    
+     
+}
+
+.experiencia .columna:hover{
+    
+    background-color: lawngreen;
+   
+   
+}
+
+/* efecto hover */
+h3.experiencia.columna{
+    transition:all 0.2s ease-in;
+}
+h3{
+    color: black;
+}
+
+
+.imagen-iconos{
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 70px;
+    align-items: center;
+    position: relative;
+    bottom: -50px; 
+}
+
+#contactarme{
+    margin: 30px;
+}
+#icon-whatsapp{
+    position: relative;
+    left: 25px;
+    width: 4.5rem;
+}
+
+/* Footer */
+.footer{
+   
+    height: 300px;
+    background-color: darkgreen;
+}
+#icon-contactarme{
+    width: 6.5rem;
+    margin-top: 1rem;
+    position: relative;
+    top: 10px
+}
+#icon-contactarme2{
+    position: relative;
+    right: 6px;
+    top: -10px;
+}
+
+#icon-contactarme2{
+    width: 7rem;
+    margin-top: 2rem;
+}
+li{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    text-align: left;
+    
+}
+
+
+/* Adapatable / responsivo */
+
+@media screen and (max-width: 545px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+
+@media (max-width: 545px){
+    h1{font-size: 2rem;}
+}
+
+@media(max-width: 545px){
+    #imagenes-lenguajes{
+        width: 20rem;
+    }
+}
+
+@media(max-width: 545px){
+    #foto-Bryan{
+        width: 12rem;
+        margin: -10px;
+        bottom: -30px;
+       
+        
+    }
+}
+@media(min-width: 554px){
+    #text-introduce{
+        margin-top: 10rem; 
+    }
+}
+
+
+
+
+/* Seccion-hero */
+.hero-xd{
+    background-color: black;
+    text-align: center;
+    padding: 0;
+    
+}
+h3{
+    color: bisque;
+    font-size: 1.5rem;
+    font-family: 'DotGothic16', sans-serif;
+    padding-top: 15px;  
+}
+
+#foto-Bryan{
+    width: 18rem;
+}
+
+#imagenes-lenguajes{
+    padding: 1rem;
+    width: 13rem;
+}
+#row-hero{
+    margin: 0;
+}
+
+#text-cajas{
+    font-family: 'Press Start 2P', cursive;
+   
+}
+
+
+
+/* Seccion-about */
+.about-me-xd .seccion-obscura{
+    background-color: rgb(207, 18, 18);
+    width: auto;
+}
+
+/* Seccion Indice */
+#indice-footer{
+    padding: 30px;
+}

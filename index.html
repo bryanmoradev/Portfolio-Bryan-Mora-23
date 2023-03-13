@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bryan Mora">
+    <meta name="description" content="Portafolio de desarrolo web de Bryan Mora">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+<!--Title-->
+    <title>Bryan Mora | Wed developer</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/icons8-grey-32.png">
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Orbitron:wght@900&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<!-- body -->
+<body>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-dark bg-dark fixed-top container-fluid">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/icons8-grey-32.png" width="50" alt="Logo de la pagina web">Web Developer and multimedia artist</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">HOME</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#parrafo-id">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos1">Proyectos</a>
+            </li> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contactarme
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/bryan-mora-901976265/" target="_blank" rel="noopener noreferrer">Linkeding</a></li>
+                <li><a class="dropdown-item" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJZZQgcHfPMHBfVcvSjfJRVvdjlhVqFJVQdxhWjpSCqxLTrDnvCKdtfrXksLnWWsdHMfbBq" target="_blank" rel="noopener noreferrer">Enviar mail</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="https://wa.me/593998292682?/Hola-es-un-placer-atenderle." target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Seccion Hero --> 
+  <div class="hero-xd">
+    <div class="row" id="row-hero">
+      <div class="col-md-6">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+          <img class="imagen-fluid" id="foto-Bryan" src="images/Bryan-Mora.png.jpg" alt="Foto de Bryan Mora"> 
+        </div>
+      </div>
+      <div class="col-md-6" id="text-introduce">
+        <h1>Hola, soy Bryan Mora</h1>
+          <h1>Desarrollo sitios web</h1>
+          <h3>Front End developer | Multimedia artist</h3>
+          <div class="hero-inferior-image">
+            <img src="images/HTML_css_js.png" alt="Logos de lenguajes de programacion que maneja el desarrolador" class="hero-inferior imagen-fluid" id="imagenes-lenguajes">
+            <img src="images/icons8-react-80.png" alt="Logos de lenguajes de programacion que maneja el desarrolador" class="hero-inferior imagen-fluid" id="imagenes-lenguajes2">
+            <img src="images/icons8-bootstrap-96.png" alt="Logos de lenguajes de programacion que maneja el desarrolador" class="hero-inferior imagen-fluid" id="imagenes-lenguajes2">
+            <img src="images/icons8-github-94.png" alt="Logos de lenguajes de programacion que maneja el desarrolador" class="hero-inferior imagen-fluid" id="imagenes-lenguajes2">
+            <img src="images/icons8-git-96.png" alt="Logos de lenguajes de programacion que maneja el desarrolador" class="hero-inferior imagen-fluid" id="imagenes-lenguajes2">
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!------Seccion About--------->
+  <section class="hero aling-items-stretch" id="parrafo-id">
+    <seccion class="about-me seccion-obscura">
+      <div class="container">
+        <h1 class="seccion-titulos sobre-mi">About me</h1>
+        <p class="seccion-parrafos parrafo-mi">Bienvenido al portafolio de Bryan, un desarrollador web frontend con habilidades en tecnologías como HTML, CSS, Bootstrap, JavaScript y React. Con una pasión por el diseño y la programación, Bryan crea sitios web hermosos y funcionales que combinan la estética y la funcionalidad.
+          </p>
+
+          <div class="accordion-flush" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Saber mas...
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Además de su experiencia en el desarrollo web, Bryan también es un artista multimedial experimentado y ha trabajado en una variedad de proyectos de música electrónica como manager de eventos. Esta combinación única de habilidades y experiencia le permite abordar los proyectos desde múltiples perspectivas y agregar un toque personal y creativo a sus soluciones tecnológicas.
+          
+                    En su portafolio, podrás encontrar ejemplos de proyectos de desarrollo web que Bryan ha completado, así como algunos de sus trabajos artísticos y eventos de música electrónica en los que ha participado. Si estás buscando un desarrollador web frontend talentoso y creativo con habilidades en diseño y gestión de eventos, no dudes en contactar a Bryan para discutir tus proyectos y necesidades.</p>
+                </div>
+              </div>
+            </div>
+          
+      </div>
+    </seccion>
+  </section>
+  
+  <!-- Seccion experiencia -->
+  <section class="experiencia seccion-clara" id="proyectos1">
+    <div class="container text-center" >
+      <div class="row">
+        <!-- Caja 1 -->
+        <div class="columna col-12 col-md-4" id="cajas">
+          <a href="webdev.html" target="_blank" rel="noopener noreferrer"><img class="imagen-iconos" src="images/icons8-internet-100.png" id="prodev">
+            <h3 id="text-cajas">Desarrollo Web</h3></a>
+          
+        </div>
+
+        <!-- Caja 2 -->
+        <div class="columna col-12 col-md-4" id="cajas">
+          <a href="https://github.com/bryanmoradev" target="_blank" rel="noopener noreferrer" >
+            <img class="imagen-iconos" src="images/icons8-github-100.png" id="prodev">
+          <h3 id="text-cajas">GitHub</h3>
+          </a>
+          
+        </div>
+
+        <!-- Cajas 3 -->
+        <div class="columna col-12 col-md-4" id="cajas">
+          <a href="https://peterchakra.super.site/" target="_blank" rel="noopener noreferrer">
+            <img class="imagen-iconos" src="images/icons8-medio-100.png">
+          <h3 id="text-cajas">Artes multimediales</h3>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion contactame -->
+  <section id="contactarme">
+    <div class="row container-fluid align-items-center">
+      <div class="col"><h1>Creemos algo, contactame</h1></div>
+      <div class="col"><a href="https://wa.me/593998292682?/Hola-es-un-placer-atenderle." target="_blank" rel="noopener noreferrer"><img id="icon-whatsapp" src="images/icons8-whatsapp-50.png"></a></div>
+    </div>
+  </section>
+</body>
+
+<!-- Seccion Footer -->
+<footer class="footer d-flex">
+  <div class="container text-center align-items-center" id="contactarme">
+    <div class="row">
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/in/bryan-mora-901976265/" target="_blank" rel="noopener noreferrer"><img id="icon-contactarme" src="images/icons8-linkedin-50.png"></a> 
+      </div>
+      <div class="col-md-3">
+        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJZZQgcHfPMHBfVcvSjfJRVvdjlhVqFJVQdxhWjpSCqxLTrDnvCKdtfrXksLnWWsdHMfbBq"><img id="icon-contactarme2" target="_blank" rel="noopener noreferrer" src="images/icons8-delivery-91.png"></a>
+      </div>
+      <div class="col-md-3"id="indice-footer">
+       
+        <li> <a href="webdev.html" target="_blank" rel="noopener noreferrer">Proyectos desarrollo web</a></li>
+        
+        <li><a href="https://github.com/bryanmoradev" target="_blank" rel="nooper noreferrer">GitHub</a></li>
+      </div>
+    </div>
+</footer>
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+</html>
