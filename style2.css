@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    
+  
+}
+h1 {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 3rem;
+    color: lawngreen;
+    padding: 2rem;
+}
+h2 {
+    font-family: 'DotGothic16', sans-serif;
+    color: lawngreen;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: 'DotGothic16', sans-serif;
+    color: lawngreen;
+    font-size: 3rem;
+}
+.row{
+      
+}
+.row {
+    padding-top: 1rem;
+
+}
+.card{
+    border-color: lawngreen;  
+}
+
+.list-group .list-group-item{
+    background-color: black;
+    border-color: lawngreen;
+    border-radius: 10%;
+    
+}
+.btn{
+    border-color: rgb(124, 252, 0);
+    color: bisque;
+}
+
+footer{
+    padding: 2rem;
+}
